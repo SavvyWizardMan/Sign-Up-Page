@@ -1,0 +1,74 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label, input, textarea {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 32px;
+}
+
+@font-face {
+    font-family: "Bleeding_Cowboys";
+    src:
+      url("Bleeding_Cowboys.ttf") format("opentype");
+}
+
+h1 {
+    font-family: "Bleeding_Cowboys", Helvetica, sans-serif;
+    vertical-align: middle;
+    font-size: 3em;
+    color: white;
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 32px;
+    margin-bottom: 128px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 384px;
+    width: 50%;
+}
+
+.side-bar {
+    width: 50%;
+    height: 100vh;
+    background: url("img.jpg");
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+form {
+    background-color: white;
+    width: 100%;
+    padding: 32px;
+}
+
+img[src="western.png"] {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.logo {
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+    width: 100%;
+    gap: 32px;
+    background-color: rgb(0 0 0 /30%)
+}
