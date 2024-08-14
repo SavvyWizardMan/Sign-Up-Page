@@ -45,7 +45,7 @@ p {
 .side-bar {
     width: 40%;
     height: 100vh;
-    background: url("img.jpg");
+    background: url("img.jpg") no-repeat;
     background-position-x: -100px;
     background-size: cover;
 }
